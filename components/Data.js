@@ -1,7 +1,7 @@
 import lodash from 'lodash'
 import fs from 'fs'
 const _path = process.cwd()
-const plugin = 'yunzai-c-v-plugin'
+const plugin = 'kkkkkk-10086'
 const getRoot = (root = '') => {
   if (root === 'root' || root === 'yunzai') {
     root = `${_path}/`
@@ -85,7 +85,7 @@ let Data = {
     let sysCfg = await Data.importModule(`config/model/${key}_model.js`)
     let diyCfg = await Data.importModule(`config/${key}.js`)
     if (diyCfg.isSys) {
-      console.error(`yunzai-c-v-plugin: config/${key}.js`)
+      console.error(`kkkkkk-10086: config/${key}.js`)
       console.error(`config/${key}_default.js为config/${key}.js`)
       diyCfg = {}
     }

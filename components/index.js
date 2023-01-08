@@ -1,5 +1,5 @@
 const Path = process.cwd();
-const Plugin_Name = 'yunzai-c-v-plugin'
+const Plugin_Name = 'kkkkkk-10086'
 const Plugin_Path = `${Path}/plugins/${Plugin_Name}`;
 import Version from './Version.js'
 import Data from './Data.js'

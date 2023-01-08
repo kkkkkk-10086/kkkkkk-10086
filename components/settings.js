@@ -4,7 +4,7 @@ import fs from 'node:fs'
 const _path = process.cwd().replace(/\\/g, '/')
 class Setting {
   constructor () {
-    this.configPath = `${_path}/plugins/yunzai-c-v-plugin/config/`
+    this.configPath = `${_path}/plugins/kkkkkk-10086/config/`
     this.config = {}
     this.watcher = { config: {} }
   }

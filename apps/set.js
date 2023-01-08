@@ -5,8 +5,8 @@ import common from'../../../lib/common/common.js'
 import co from '../../../lib/common/common.js'
 import fs from 'fs'
 import YAML from 'yaml'
-const settings = await YAML.parse(fs.readFileSync('./plugins/yunzai-c-v-plugin/config/cfg.yaml','utf8'));
-const settobig = await YAML.parse(fs.readFileSync('./plugins/yunzai-c-v-plugin/config/tobig.yaml','utf8'));
+const settings = await YAML.parse(fs.readFileSync('./plugins/kkkkkk-10086/config/cfg.yaml','utf8'));
+const settobig = await YAML.parse(fs.readFileSync('./plugins/kkkkkk-10086/config/tobig.yaml','utf8'));
 export class St extends plugin {
     constructor() {
         super({
@@ -33,7 +33,7 @@ export class St extends plugin {
             set = false
         }
         settobig.tobigset = set
-        fs.writeFileSync('./plugins/yunzai-c-v-plugin/config/tobig.yaml',YAML.stringify(settobig),'utf8')
+        fs.writeFileSync('./plugins/kkkkkk-10086/config/tobig.yaml',YAML.stringify(settobig),'utf8')
         e.reply('成功' + e.msg + ',已生效啦')
     }
     async setnote(e) {
@@ -44,7 +44,7 @@ export class St extends plugin {
             set = false
         }
         settobig.tobignote = set
-        fs.writeFileSync('./plugins/yunzai-c-v-plugin/config/tobig.yaml',YAML.stringify(settobig),'utf8')
+        fs.writeFileSync('./plugins/kkkkkk-10086/config/tobig.yaml',YAML.stringify(settobig),'utf8')
         e.reply('成功' + e.msg + ',已生效啦')
     }
 
