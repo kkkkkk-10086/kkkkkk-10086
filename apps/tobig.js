@@ -18,7 +18,7 @@ export class tobig extends plugin {
             priority: -1,//优先级，数越小优先度越高
             rule: [
                 {
-                    reg: '^#?(json|JSON)$',
+                    reg: '^#?(json|JSON|大图|转大图|全屏消息)$',
                     fnc: 'tobig',
                     permission: "all",
                 },{
