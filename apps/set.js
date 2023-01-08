@@ -10,8 +10,8 @@ const settobig = await YAML.parse(fs.readFileSync('./plugins/kkkkkk-10086/config
 export class St extends plugin {
     constructor() {
         super({
-            name: "清凉图设置",
-            dsc: "更改清凉图设置",
+            name: "转大图设置",
+            dsc: "更改转大图图设置",
             event: "message",
             priority: 5000,
             rule: [
